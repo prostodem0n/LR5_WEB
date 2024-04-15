@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан "LERO"</title>
+    <!-- Підключення стилів Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Власні стилі -->
+    <style>
+        /* Задаємо ніжно синій колір для тла сайту */
+        body {
+            background-color: #64bcff;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Шапка сайту -->
+<header class="bg-dark text-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4">Ресторан "LERO"</h1>
+                <!-- Навігаційне меню -->
+                <nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link active" href="#">Головна</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Меню</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Забронювати</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Про нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Головний контент -->
+<main class="container my-5" >
+    <div class="row" style="background-color: #3524b1; border-radius: 20px;">
+        <div class="col-12 text-white">
+            <h2>Ласкаво просимо до ресторану "LERO"</h2>
+            <p>Ресторан 'LERO' - ваше пристановище для смачної та елегантної кухні. Зануртеся у світ смаку та атмосфери, де кожна страва створена з любов'ю та майстерністю. Наше меню вражає різноманіттям та оригінальністю кожного блюда, а комфортна обстановка робить кожен візит незабутнім досвідом. Ласкаво просимо до ресторану 'LERO', де гастрономічні насолоди поєднуються зі зворушливою атмосферою!</p>
+        </div>
+    </div>
+
+    <!-- Блок зі спеціальною пропозицією -->
+    <div class="row" >
+        <div class="col-12 text-center text-white">
+            <div class="card text-white special-offer my-4" style="background-color: #00205d;">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Спеціальна пропозиція</h3>
+                    <img src="special_offer.jpg" class="img-fluid mx-auto mb-3" alt="Спеціальна пропозиція" style="max-width: 50%;">
+                    <p class="card-text">Замовте дві страви з нового меню і отримайте десерт у подарунок!</p>
+                    <a href="#" class="btn btn-special btn-lg" style="font-weight: bold; background-color: #0091ff;">Детальніше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Головний контент -->
+<main class="container my-5">
+    <!-- Каталог товарів -->
+    <div id="catalog" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" style="background-color: #c48ef7; padding-top: 25px;">
+        <div class="col">
+            <div class="card mb-4">
+                <img src="special_offer.jpg" class="card-img-top" alt="Товар 1">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Товар 1</h5>
+                    <p class="card-text">Опис товару 1.</p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4">
+                <img src="special_offer.jpg" class="card-img-top" alt="Товар 2">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Товар 2</h5>
+                    <p class="card-text">Опис товару 2.</p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4">
+                <img src="special_offer.jpg" class="card-img-top" alt="Товар 3">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Товар 3</h5>
+                    <p class="card-text">Опис товару 3.</p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-none d-sm-block">
+            <div class="card mb-4">
+                <img src="special_offer.jpg" class="card-img-top" alt="Товар 4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Товар 4</h5>
+                    <p class="card-text">Опис товару 4.</p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-none d-sm-block">
+            <div class="card mb-4">
+                <img src="special_offer.jpg" class="card-img-top" alt="Товар 5">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Товар 5</h5>
+                    <p class="card-text">Опис товару 5.</p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-none d-sm-block">
+            <div class="card mb-4">
+                <img src="special_offer.jpg" class="card-img-top" alt="Товар 6">
+                <div class="card-body text-center">
+                    <h5 class="card-title ">Товар 6</h5>
+                    <p class="card-text">Опис товару 6.</p>
+                    <a href="#" class="btn btn-primary">Купити</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Відгуки -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Відгуки клієнтів</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Автор відгуку</h5>
+                    <p class="card-text">Текст відгуку</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Дата відгуку</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Автор відгуку</h5>
+                    <p class="card-text">Текст відгуку</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Дата відгуку</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <form>
+                <div class="form-group">
+                    <label for="inputName">Ім'я</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Введіть ваше ім'я">
+                </div>
+                <div class="form-group">
+                    <label for="inputReview">Відгук</label>
+                    <textarea class="form-control" id="inputReview" rows="3" placeholder="Напишіть ваш відгук"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Надіслати</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Підвал сайту -->
+<footer class="bg-dark text-light py-3">
+    <div class="container">
+        <div style="background: #000000; border-radius: 10px;">
+            <h4 class="text-center text-light mb-4">Ресторан "LERO"</h4>
+        </div>
+        <div class="row">
+            <!-- Колонки при великих екранах -->
+            <div class="col-md-3 d-none d-md-block">
+                <h5>Каталог</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#catalog">Товар 1</a></li>
+                    <li><a href="#catalog">Товар 2</a></li>
+                    <li><a href="#catalog">Товар 3</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <h5>Відгуки</h5>
+                <p>Тут може бути короткий огляд відгуків або посилання на сторінку з відгуками.</p>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <h5>Інша інформація</h5>
+                <p>Тут може бути будь-яка інша корисна інформація для користувачів, наприклад, контактні дані, адреса, режим роботи тощо.</p>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <h5>Контакти</h5>
+                <p>Email: example@example.com</p>
+                <p>Телефон: +123456789</p>
+                <p>Адреса: Вулиця, місто, країна</p>
+            </div>
+            <!-- Випадаючі списки при малих екранах -->
+            <div class="col-12 d-md-none">
+                <select class="form-control mb-3 bg-secondary border-dark">
+                    <option selected disabled>Каталог</option>
+                    <option value="#catalog">Товар 1</option>
+                    <option value="#catalog">Товар 2</option>
+                    <option value="#catalog">Товар 3</option>
+                </select>
+                <select class="form-control mb-3 bg-secondary border-dark">
+                    <option selected disabled>Відгуки</option>
+                    <option value="#">Тут може бути короткий огляд відгуків або посилання на сторінку з відгуками.</option>
+                </select>
+                <select class="form-control mb-3 bg-secondary border-dark">
+                    <option selected disabled>Інша інформація</option>
+                    <option value="#">Тут може бути будь-яка інша корисна інформація для користувачів, наприклад, контактні дані, адреса, режим роботи тощо.</option>
+                </select>
+                <select class="form-control bg-secondary border-dark">
+                    <option selected disabled>Контакти</option>
+                    <option value="#">Email: example@example.com</option>
+                    <option value="#">Телефон: +123456789</option>
+                    <option value="#">Адреса: Вулиця, місто, країна</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>&copy; 2024 Ресторан "LERO". Усі права захищені.</p>
+            </div>
+        </div>
+    </div>
+</footer>
